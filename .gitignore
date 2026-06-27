@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+output/
+data/splits/
+data/*.jsonl
+*.gguf
+*.bin
+*.safetensors
+.DS_Store
+.idea/
+.vscode/
+scripts/llama_cpp/
