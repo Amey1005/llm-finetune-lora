@@ -1,15 +1,14 @@
-# 🦙 LLM Fine-Tuning Pipeline (LoRA)
+#  LLM Fine-Tuning Pipeline (LoRA)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-PEFT-yellow)](https://huggingface.co/docs/peft)
-[![TRL](https://img.shields.io/badge/TRL-SFTTrainer-orange)](https://huggingface.co/docs/trl)
-[![LoRA](https://img.shields.io/badge/LoRA-rank--8-purple)](https://arxiv.org/abs/2106.09685)
+[![Python]
+[![HuggingFace]
+[![TRL]
+[![LoRA]
 
 Fine-tunes **Llama 3.2 (3B)** on a domain-specific Q&A dataset using **LoRA rank-8** via HuggingFace PEFT and TRL. Reduces trainable parameters by **~99%** while achieving competitive task accuracy vs full fine-tuning.
 
 ---
-
-## 🏗️ Pipeline Overview
+##  Pipeline Overview
 
 ```
 Raw Q&A JSONL
@@ -38,7 +37,7 @@ Raw Q&A JSONL
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Detail |
 |---|---|
@@ -52,7 +51,7 @@ Raw Q&A JSONL
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install dependencies
 ```bash
@@ -91,7 +90,7 @@ ollama run llama3-qa
 
 ---
 
-## 📊 Parameter Efficiency (LoRA rank-8)
+##  Parameter Efficiency (LoRA rank-8)
 
 ```
 Total parameters     : 3,212,749,824  (3.2B)
@@ -104,7 +103,7 @@ Reduction            : ~99.4% fewer trainable params
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 llm-finetune-lora/
@@ -123,7 +122,7 @@ llm-finetune-lora/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **HuggingFace PEFT** — LoRA adapter training
 - **TRL (SFTTrainer)** — Supervised fine-tuning
